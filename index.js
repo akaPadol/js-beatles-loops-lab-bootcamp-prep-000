@@ -4,7 +4,7 @@ function theBeatlesPlay(art,inst){
   var res= []
 for (var i=0;i<art.lenght;++i){
   res.push(art[i]+" "+inst[i])
-  
+
 }
 return res
 }
@@ -31,4 +31,3 @@ function iLoveTheBeatles(n){
   } while (n<15);
   return res
 }
-
