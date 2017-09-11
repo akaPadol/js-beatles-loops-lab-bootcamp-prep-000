@@ -15,8 +15,8 @@ function johnLennonFacts(arr){
  should return an array of strings with exclamation points.*/
 var n = 0
  while(n<arr.lenght){
-   var old = arr[n]
-   arr[n]= old + "!!!"
+
+   arr[n]+="!!!"
    ++n
  }
  return arr
