@@ -2,11 +2,11 @@
 
 function theBeatlesPlay(art,inst){
   var res= []
-for (var i=0;i<art.lenght;++i){
+for (var i=0;i<art.length;++i){
   res.push(art[i]+" "+inst[i])
 
 }
-return res
+return res 
 }
 
 function johnLennonFacts(arr){
@@ -15,7 +15,7 @@ function johnLennonFacts(arr){
  should return an array of strings with exclamation points.*/
 var n = 0
 var res=[]
- while(n<arr.lenght){
+ while(n<arr.length){
 
    res.push(arr[n]+"!!!")
    ++n
