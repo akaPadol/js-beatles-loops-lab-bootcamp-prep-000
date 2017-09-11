@@ -3,10 +3,10 @@
 function theBeatlesPlay(art,inst){
   var res= []
 for (var i=0;i<art.length;++i){
-  res.push(art[i]+" "+inst[i])
+  res.push(art[i]+" plays "+inst[i])
 
 }
-return res
+return res 
 }
 
 function johnLennonFacts(arr){
