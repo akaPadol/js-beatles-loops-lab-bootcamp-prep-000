@@ -14,12 +14,13 @@ function johnLennonFacts(arr){
  to the end of every fact. The function
  should return an array of strings with exclamation points.*/
 var n = 0
+var res=[]
  while(n<arr.lenght){
 
-   arr[n]+="!!!"
+   res.push(arr[n]+"!!!")
    ++n
  }
- return arr
+ return res
 }
 
 function iLoveTheBeatles(n){
